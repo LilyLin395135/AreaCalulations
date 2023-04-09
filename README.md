@@ -70,7 +70,7 @@ Feature: Calculate the area of different shapes.
   Scenario: Calculate Circle
     Given There is a circle, and radius is 4 cm 
     When Calculate area
-    Then The area is 50.24 square cm
+    Then The area is 50.27 square cm
 
   Scenario: Calculate Triangle
     Given There is a triangle, height is 4 cm, and base-side is 5 cm

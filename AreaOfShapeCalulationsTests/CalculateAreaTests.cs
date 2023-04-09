@@ -31,6 +31,15 @@ namespace AreaOfShapeCalulationsTests
             TotalAreaShouldBe(9, square);
         }
 
+        [TestMethod]
+        public void CalculateCircleArea()
+        {
+            //Arrange：準備測試資料(物件)
+            var circle = new Circle(4d);
+
+            TotalAreaShouldBe(50.27, circle);
+        }
+
         private void TotalAreaShouldBe(double expected, IShape shape)
         {
             //Act：用Calculator
