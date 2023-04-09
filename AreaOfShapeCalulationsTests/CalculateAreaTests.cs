@@ -50,8 +50,27 @@ namespace AreaOfShapeCalulationsTests
             TotalAreaShouldBe(10, triangle);
         }
 
+        [TestMethod]
+        public void CalculateDifferentShapesArea()
+        {
+            //Arrange：準備測試資料(物件)
+            var rectangle1 = new Rectangle(3d, 5d);
+            var rectangle2 = new Rectangle(4d, 8d);
+            var circle = new Circle(4d);
+            var square = new Square(3d);
+            var triangle = new Triangle(4d, 5d);
 
-        private void TotalAreaShouldBe(double expected, IShape shape)
+            TotalAreaShouldBe(
+                116.27, 
+                rectangle1,
+                rectangle2,
+                circle,
+                square,
+                triangle);
+        }
+
+
+        private void TotalAreaShouldBe(double expected, params IShape[] shape)//params關鍵字允許可變數量的參數傳進params後的陣列。
         {
             //Act：用Calculator
             var result = _calculator.GetTotalArea(shape);

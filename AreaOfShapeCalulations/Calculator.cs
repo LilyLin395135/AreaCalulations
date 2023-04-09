@@ -2,9 +2,15 @@
 {
     public class Calculator
     {
-        public double GetTotalArea(IShape shape)
+        public double GetTotalArea(params IShape[] shapes)
         {
-            return shape.Area();
+            //shapes.Sum(s => s.Area());//使用LINQ方式
+            var totalArea = 0d;
+            foreach (var shape in shapes)
+            {
+                totalArea += shape.Area();
+            }
+            return Math.Round(totalArea, 2);
         }
     }
 }
