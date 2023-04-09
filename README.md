@@ -84,7 +84,7 @@ Feature: Calculate the area of different shapes.
     And There is a circle, and radius is 4 cm
     And There is a triangle, height is 4 cm, and base-side is 5 cm
     When Calculate area
-    Then The area is 116.24 square cm
+    Then The area is 116.27 square cm
 
   Scenario: Calculate shapes and rounded to two decimal places 四捨五入到小數第二位
     Given There is a rectangle, height is 3.251 cm, and width is 1 cm

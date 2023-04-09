@@ -1,4 +1,5 @@
 using AreaOfShapeCalulations;
+using AreaOfShapeCalulations.Shape;
 
 namespace AreaOfShapeCalulationsTests
 {

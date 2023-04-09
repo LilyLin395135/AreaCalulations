@@ -1,4 +1,4 @@
-﻿namespace AreaOfShapeCalulations
+﻿namespace AreaOfShapeCalulations.Shape
 {
     public class Circle : IShape
     {
@@ -11,7 +11,7 @@
 
         public double Area()
         {
-            return Math.Round(Math.PI * _radius * _radius,2);
+            return Math.Round(Math.PI * _radius * _radius, 2);
         }
     }
 }
