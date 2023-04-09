@@ -1,3 +1,5 @@
+using AreaOfShapeCalulations;
+
 namespace AreaOfShapeCalulationsTests
 {
     [TestClass]
@@ -13,26 +15,6 @@ namespace AreaOfShapeCalulationsTests
             var result = calculator.GetTotalArea(rectangle);
             //Assert¡G
             Assert.AreEqual(15, result);
-        }
-    }
-
-    internal class Calculator
-    {
-        internal double GetTotalArea(Rectangle rectangle)
-        {
-            return 15;
-        }
-    }
-
-    internal class Rectangle
-    {
-        private readonly double _height;
-        private readonly double _width;
-
-        public Rectangle(double height, double width)
-        {
-            this._height = height;
-            this._width = width;
         }
     }
 }
