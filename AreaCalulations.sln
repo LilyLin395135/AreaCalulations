@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfShapeCalulationsTests", "AreaOfShapeCalulationsTests\AreaOfShapeCalulationsTests.csproj", "{5BD733D1-BCFA-43BF-A382-98123308553D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfShapeCalulations", "AreaOfShapeCalulations\AreaOfShapeCalulations.csproj", "{F8AD0F10-15F4-4A59-9E82-7B77C60C53BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD733D1-BCFA-43BF-A382-98123308553D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD733D1-BCFA-43BF-A382-98123308553D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD733D1-BCFA-43BF-A382-98123308553D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD733D1-BCFA-43BF-A382-98123308553D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AD0F10-15F4-4A59-9E82-7B77C60C53BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AD0F10-15F4-4A59-9E82-7B77C60C53BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AD0F10-15F4-4A59-9E82-7B77C60C53BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AD0F10-15F4-4A59-9E82-7B77C60C53BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E995FD2-B67D-49FB-A7B5-A197751E8763}
+	EndGlobalSection
+EndGlobal
