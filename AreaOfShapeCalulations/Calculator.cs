@@ -2,14 +2,9 @@
 {
     public class Calculator
     {
-        public double GetTotalArea(Rectangle rectangle)
+        public double GetTotalArea(IShape shape)
         {
-            return rectangle.Area();
-        }
-
-        public double GetTotalArea(Square square)
-        {
-            return square.Area();
+            return shape.Area();
         }
     }
 }

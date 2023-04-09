@@ -1,6 +1,6 @@
 ﻿namespace AreaOfShapeCalulations
 {
-    public class Square
+    public class Square : IShape
     {
         private readonly double _length;
 
@@ -9,7 +9,7 @@
             _length = length;
         }
 
-        internal double Area()
+        public double Area()
         {
             return _length * _length;
         }

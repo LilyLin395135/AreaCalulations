@@ -1,6 +1,6 @@
 ﻿namespace AreaOfShapeCalulations
 {
-    public class Rectangle
+    public class Rectangle : IShape
     {
         private readonly double _height;
         private readonly double _width;
@@ -11,7 +11,7 @@
             _width = width;
         }
 
-        internal double Area()
+        public double Area()
         {
             return _height * _width;
         }
