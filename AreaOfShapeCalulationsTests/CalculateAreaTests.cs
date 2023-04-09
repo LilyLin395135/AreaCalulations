@@ -45,7 +45,7 @@ namespace AreaOfShapeCalulationsTests
         public void CalculateTriangleArea()
         {
             //Arrange：準備測試資料(物件)
-            var triangle = new Triangle(4d,5d);
+            var triangle = new Triangle(4d, 5d);
 
             TotalAreaShouldBe(10, triangle);
         }
@@ -61,7 +61,7 @@ namespace AreaOfShapeCalulationsTests
             var triangle = new Triangle(4d, 5d);
 
             TotalAreaShouldBe(
-                116.27, 
+                116.27,
                 rectangle1,
                 rectangle2,
                 circle,
@@ -69,6 +69,21 @@ namespace AreaOfShapeCalulationsTests
                 triangle);
         }
 
+        [TestMethod]
+        public void CalculateShapesArea()
+        {
+            //Arrange：準備測試資料(物件)
+            var rectangle = new Rectangle(3.251d, 1d);
+            var circle = new Circle(1d);
+
+            TotalAreaShouldBe(6.39, rectangle, circle);
+        }
+
+        [TestMethod]
+        public void CalculateNoShapeArea()
+        {
+            TotalAreaShouldBe(0);
+        }
 
         private void TotalAreaShouldBe(double expected, params IShape[] shape)//params關鍵字允許可變數量的參數傳進params後的陣列。
         {
