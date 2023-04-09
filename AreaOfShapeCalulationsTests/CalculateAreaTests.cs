@@ -14,7 +14,19 @@ namespace AreaOfShapeCalulationsTests
             var calculator = new Calculator();
             var result = calculator.GetTotalArea(rectangle);
             //Assert：
-            Assert.AreEqual(15, result);
+            Assert.AreEqual(15d, result);
+        }
+
+        [TestMethod]
+        public void CalculateSquareArea()
+        {
+            //Arrange：準備測試資料(物件)
+            var square = new Square(3d);
+            //Act：用Calculator
+            var calculator = new Calculator();
+            var result = calculator.GetTotalArea(square);
+            //Assert：
+            Assert.AreEqual(9d, result);
         }
     }
 }

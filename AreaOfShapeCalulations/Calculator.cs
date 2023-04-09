@@ -6,5 +6,10 @@
         {
             return rectangle.Area();
         }
+
+        public double GetTotalArea(Square square)
+        {
+            return square.Area();
+        }
     }
 }
