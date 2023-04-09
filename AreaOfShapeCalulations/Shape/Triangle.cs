@@ -2,7 +2,7 @@
 
 namespace AreaOfShapeCalulationsTests
 {
-    public class Triangle:IShape
+    public class Triangle : IShape
     {
         private double _baseSide;
         private double _height;
@@ -15,7 +15,7 @@ namespace AreaOfShapeCalulationsTests
 
         public double Area()
         {
-            return (_baseSide*_height)/2;
+            return (_baseSide * _height) / 2;
         }
     }
 }
