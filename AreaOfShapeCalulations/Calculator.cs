@@ -1,4 +1,4 @@
-﻿namespace AreaOfShapeCalulations
+﻿namespace AreaOfShapeCalculations
 {
     public class Calculator
     {

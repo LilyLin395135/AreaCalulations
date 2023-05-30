@@ -1,4 +1,4 @@
-﻿using AreaOfShapeCalulations;
+﻿using AreaOfShapeCalculations;
 
 namespace AreaOfShapeCalulationsTests
 {

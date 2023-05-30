@@ -1,4 +1,4 @@
-﻿namespace AreaOfShapeCalulations.Shape
+﻿namespace AreaOfShapeCalculations.Shape
 {
     public class Square : IShape
     {

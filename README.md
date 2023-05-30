@@ -1,4 +1,4 @@
-# AreaCalulations
+# AreaCalculations
 
 ## °ÝÃD
 Implement:  
